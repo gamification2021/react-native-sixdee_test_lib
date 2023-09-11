@@ -17,6 +17,6 @@ const SixdeeTestLib = NativeModules.SixdeeTestLib
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return SixdeeTestLib.multiply(a, b);
+export function loadActivity(): Promise<number> {
+  return SixdeeTestLib.loadActivity();
 }
